@@ -8,10 +8,9 @@ meme_dict = {
             }
           
 while True:
-    word = input("Ketik kata yang tidak Kamu mengerti (gunakan huruf kapital semua!): ")
-    
-    if word in meme_dict.keys():
-        print(meme_dict[word])
-        break
-    else:
-        print('INVALID WORD')
+            word = input("Ketik kata yang tidak Kamu mengerti (gunakan huruf kapital semua!): ")
+            if word in meme_dict.keys():
+                        print(meme_dict[word])
+                        break
+            else:        
+                        print('INVALID WORD')
